@@ -1,5 +1,9 @@
 # Skin-Cancer-Classification-Deep-Learning-Project
 
+Baseline: ResNet50
+
+Models to Compare: DenseNet121, VGG-16 and Inception V3
+
 ## Instructions for Running the Project
 
 ## 1. Code Organization
@@ -26,5 +30,5 @@
 ## 4. Runtime Environment
 
 - The project must be executed in **Google Colab**.
-- It is mandatory to use a **T4 GPU** for consistency.  
+- Check you are using a **T4 GPU**.  
 - Once the notebook is loaded, simply **press "Runtime" > **"Run all"** to execute all cells in order without manual intervention.
