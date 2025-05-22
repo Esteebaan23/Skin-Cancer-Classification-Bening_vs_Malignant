@@ -1,6 +1,34 @@
-# Skin-Cancer-Classification-Bening_vs_Malignant
+# 🩺 Skin Cancer Detection – Malignant vs Benign
 
-Models to Compare: ResNet50, DenseNet121, VGG-16 and Inception V3
+This project explores the use of deep learning and feature engineering techniques for classifying dermoscopic images of skin lesions as malignant or benign, using the **ISIC dataset**.
+
+## Overview
+
+The main goal was to evaluate the performance of several CNN architectures in the task of binary image classification, and to understand how image preprocessing and feature transformation affect model performance.
+
+### Models Used
+- **ResNet50**
+- **DenseNet121**
+- **VGG16**
+- **InceptionV3**
+
+### Feature Engineering Techniques
+- **CLAHE (Contrast Limited Adaptive Histogram Equalization):**  
+  Enhanced image contrast to highlight critical visual structures.
+- **Polynomial Feature Transformation:**  
+  Introduced non-linear feature interactions by squaring extracted feature vectors.
+
+Each model was tested under the following conditions:
+- With **CLAHE** only
+- With **Polynomial Transformation** only
+- With **both methods combined**
+
+## Key Result
+
+- The best performance was achieved using **ResNet50 with CLAHE**, reaching a classification accuracy of **89%**.
+
+This result shows that appropriate image enhancement techniques can significantly improve model performance. The project also emphasizes the importance of validating the impact of each transformation method individually and in combination.
+
 
 ## Instructions for Running the Project
 
