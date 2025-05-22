@@ -1,8 +1,6 @@
-# Skin-Cancer-Classification-Deep-Learning-Project
+# Skin-Cancer-Classification-Bening_vs_Malignant
 
-Baseline: ResNet50
-
-Models to Compare: DenseNet121, VGG-16 and Inception V3
+Models to Compare: ResNet50, DenseNet121, VGG-16 and Inception V3
 
 ## Instructions for Running the Project
 
